@@ -1,5 +1,5 @@
 {
-  "name": "fullstack-stripe-app",
+  "name": "fullstack-expo-app",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -9,7 +9,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "deploy:preview": "vercel deploy",
+    "deploy:prod": "vercel deploy --prod"
   },
   "jest": {
     "preset": "jest-expo"
@@ -43,7 +45,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
-    "@babel/runtime": "^7.26.0",
     "@types/jest": "^29.5.12",
     "@types/react": "~18.3.12",
     "@types/react-test-renderer": "^18.3.0",

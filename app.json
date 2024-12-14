@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "fullstack-stripe-app",
-    "slug": "fullstack-stripe-app",
+    "name": "fullstack-expo-app",
+    "slug": "fullstack-expo-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "fullstack-expo-app",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
